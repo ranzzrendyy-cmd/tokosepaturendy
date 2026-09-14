@@ -487,6 +487,11 @@
  
   renderProducts();
   renderCart();
+  
+  const footerWaLink = document.getElementById('footerWaLink');
+  if(footerWaLink) footerWaLink.href = `https://wa.me/${STORE_WHATSAPP_NUMBER}`;
+  const contactWaLink = document.getElementById('contactWaLink');
+  if(contactWaLink) contactWaLink.href = `https://wa.me/${STORE_WHATSAPP_NUMBER}`;
 </script>
  
 </body>
